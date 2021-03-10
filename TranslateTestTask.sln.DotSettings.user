@@ -1,5 +1,51 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2acd404e_002D45d1_002D436f_002D8864_002Dbb33d3a4ed87/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=43c870bb_002D61da_002D49c2_002D9cd9_002D27ecf20fb12c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e8ec3fe_002D3c8e_002D4020_002D80d7_002Dcd55644be83f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e99f751_002D9fe6_002D46e6_002D9f91_002D6141b7420466/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8cc47351_002D6d84_002D4f17_002D9cf7_002D98bee40672e4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9281eb8b_002D21ec_002D4b25_002D8202_002D389b1cdc17c0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PositiveTranslateTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.negative.NegativeTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a227343b_002Dc2cc_002D4aca_002Da432_002D6cd6d0bfb803/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b9fb41a0_002Dfd45_002D4224_002D8898_002D11cf8c7b3398/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc041f42_002Df8c3_002D4599_002D9a65_002Da27bb2e996d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShowTheFixSourceTextTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0cb3832_002D9a33_002D4f68_002D84f6_002D04925223448d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PositiveTranslateTest #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::4AB74368-18CF-4B4F-9C8F-8530FE539462::.NETFramework,Version=v4.8::TranslateTestTask.tests.positive.PositiveTranslateTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;

@@ -8,12 +8,10 @@ using TranslateTestTask.pages;
 
 namespace TranslateTestTask.tests
 {
-
     public class BaseTest
     {
-
-        public IWebDriver _driver;
-        public TranslatePage translatePage;
+        private IWebDriver _driver;
+        protected TranslatePage translatePage;
         
         
         [OneTimeSetUp]
@@ -41,7 +39,13 @@ namespace TranslateTestTask.tests
         [TearDown]
         public void CleanUp()
         {
-            _driver.Manage().Cookies.DeleteAllCookies();
+            if (ConfigurationManager.AppSettings["clear_cookies"].Equals("true"))
+            {
+                IJavaScriptExecutor js = (IJavaScriptExecutor) _driver;
+                _driver.Manage().Cookies.DeleteAllCookies();
+                js.ExecuteScript("window.sessionStorage.clear();");
+            }
+            
         }
 
         [OneTimeTearDown]

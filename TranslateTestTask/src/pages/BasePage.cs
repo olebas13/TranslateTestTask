@@ -8,8 +8,8 @@ namespace TranslateTestTask.pages
 {
     public class BasePage
     {
-        private IWebDriver _driver;
-        private WebDriverWait _wait;
+        private readonly IWebDriver _driver;
+        private readonly WebDriverWait _wait;
 
         protected BasePage(IWebDriver driver)
         {
@@ -23,32 +23,43 @@ namespace TranslateTestTask.pages
             waitElement(element).Click();
         }
 
-        public void Clear(IWebElement element)
+        protected void Clear(IWebElement element)
         {
             waitElement(element).Clear();
         }
 
 
-        public void Type(IWebElement element, string text)
+        protected void Type(IWebElement element, string text)
         {
             waitElement(element).SendKeys(text);
         }
 
-        public void SwitchToFrame(IWebElement frame)
+        protected void SwitchToFrame(IWebElement frame)
         {
             IWebElement fr = waitElement(frame);
             _driver.SwitchTo().Frame(fr);
         }
 
-        public string getTitle()
+        protected void ExecuteJavaScript(IWebElement element)
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor) _driver;
+            js.ExecuteScript("arguments[0].click();", element);
+        }
+
+        public string GetTitle()
         {
             return _driver.Title;
         }
 
-        public void openPage(string relativeUrl)
+        protected void OpenPage(string relativeUrl)
         {
             string url = $"{ConfigurationManager.AppSettings["baseUrl"]}{relativeUrl}";
             _driver.Navigate().GoToUrl(url);
+        }
+
+        public string GetCurrentURL()
+        {
+            return _driver.Url;
         }
 
         private IWebElement waitElement(IWebElement element)
